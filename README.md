@@ -53,24 +53,15 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-```
-module exp03(a,b,cy,sm,df,bo);
-input a,b;
-output sm,cy,df,bo;
-xor (sm,a,b);
-and (cy,a,b);
-xor (df,a,b);
-and (bo,~a,b);
-endmodule
-```
+![Screenshot 2025-04-29 102840](https://github.com/user-attachments/assets/677185ec-baba-4ed7-a0ec-aac314f7a333)
 
 
 **RTL Schematic**
-![image](https://github.com/user-attachments/assets/aaf83151-4bd9-4655-815a-529a9ab8349a)
+![Screenshot 2025-04-29 102819](https://github.com/user-attachments/assets/163ab71f-521c-4144-8427-2c27f0352768)
 
 
 **Output/TIMING Waveform**
-![Screenshot 2024-11-05 104353](https://github.com/user-attachments/assets/b2616a42-1db3-48a8-91ca-dfb9c12f41ae)
+![Screenshot 2025-04-29 102717](https://github.com/user-attachments/assets/1125d35c-7479-451e-b996-bd9914b72336)
 
 
 **Result:**
